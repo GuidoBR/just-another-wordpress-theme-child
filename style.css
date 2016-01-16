@@ -10,4 +10,39 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-sixteen-child
+ Coral:        #f88379
+ Azul:         #033c63
 */
+.site-header-main {
+        position: relative;
+        top: 20em;
+        border-top: 2px solid #f88379;
+        border-bottom: 2px solid #f88379;
+}
+
+.menu-menu-container ul li a {
+        text-transform: uppercase;
+}
+.menu-menu-container ul li a, .entry-title a {
+        color: #033c63 !important;
+}
+
+.menu-menu-container ul li:last-child a {
+        color: #f88379 !important;
+}
+
+#site-header-menu {
+        margin: 0 auto;
+}
+
+.site-branding {
+        display: none;
+}
+
+.widget {
+        border-top: 2px solid #f88379 !important;
+}
+
+footer.entry-footer time {
+        color: #f88379;
+}
