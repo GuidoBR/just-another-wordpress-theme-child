@@ -13,6 +13,17 @@
  Coral:        #f88379
  Azul:         #033c63
 */
+body {
+    background-color:#003366;
+}
+.entry-content {
+        float: none !important;
+        width: 100% !important;
+}
+h2, .primary-menu {
+        font-family: Gill Sans MT;
+        font-weight: bold;
+}
 .site-header-main {
         position: relative;
         top: 20em;
@@ -23,11 +34,11 @@
 .menu-menu-container ul li a {
         text-transform: uppercase;
 }
-.menu-menu-container ul li a, .entry-title a {
-        color: #033c63 !important;
+.menu-menu-container ul li a, .entry-title a, .widget-title {
+        color: #003366 !important;
 }
 
-.menu-menu-container ul li:last-child a {
+.menu-menu-container ul li a:hover {
         color: #f88379 !important;
 }
 
@@ -45,4 +56,16 @@
 
 footer.entry-footer time {
         color: #f88379;
+}
+.header-image { 
+        margin:14px auto;
+}
+.site-header-main {
+        top:22em;
+}
+
+@media screen and (max-width: 56.875em) {
+        .site-header-main { 
+                border: 0px !important;
+        }
 }
